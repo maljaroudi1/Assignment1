@@ -1,0 +1,224 @@
+:root {
+  --background1: "linear-gradient(164deg, rgba(171,170,235,1) 0%, rgba(84,91,177,1) 50%, rgba(152,150,233,1) 100%)";
+}
+
+body {
+  background: rgb(171, 170, 235);
+  background: linear-gradient(164deg, rgb(171, 170, 235) 0%, rgb(84, 91, 177) 50%, rgb(152, 150, 233) 100%);
+}
+
+.navigation {
+  position: absolute;
+  transform: translate3d(75rem, 4rem, 1rem);
+}
+.navigation a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  color: white;
+}
+
+header img {
+  width: 10%;
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: -1rem;
+}
+
+.hero .homeh1 {
+  position: absolute;
+  color: white;
+  transform: translate3d(15rem, 27rem, 1rem);
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0rem;
+  justify-content: normal;
+}
+.hero .img-container {
+  border: 3px solid black;
+  width: 22%;
+  margin-top: 21rem;
+  position: absolute;
+  transform: translate3d(72rem, -5rem, 1rem);
+  height: 45%;
+  border-radius: 127rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.hero .img-container img {
+  position: relative;
+  width: 112%;
+  margin-top: 2rem;
+}
+.hero a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 15px;
+  transform: translate3d(36rem, 38rem, 1rem);
+  position: absolute;
+  font-size: 2rem;
+}
+.hero a:hover {
+  background-color: black;
+}
+
+.techstack {
+  display: flex;
+  justify-content: center;
+  transform: translateY(71rem);
+  padding-bottom: 8rem;
+}
+.techstack h1 {
+  color: white;
+  transform: translate3d(-1rem, -12rem, 1rem);
+  font-size: 3.5rem;
+  position: absolute;
+}
+.techstack .item {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+  margin-left: 5rem;
+  position: relative;
+}
+.techstack .item img {
+  position: relative !important;
+  width: 66%;
+}
+
+.about-me {
+  position: absolute;
+  transform: translate3d(44rem, 23rem, 1rem);
+  border: 1px solid black;
+  text-align: center;
+  width: 35%;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.about-me:hover {
+  border: 5px solid white;
+  transition: all 0.4s ease-in-out;
+}
+.about-me h1 {
+  font-size: 5rem;
+  color: white;
+}
+.about-me p {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.resume {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  margin-top: 37rem;
+  margin-left: 62.5rem;
+}
+.resume:hover {
+  background-color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.projecth1 {
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 5rem;
+  margin-top: 15rem;
+}
+
+.project-container {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24rem;
+}
+.project-container .project {
+  border: 1px solid black;
+  width: 27%;
+  height: 134%;
+  margin: 4rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.project-container .project img {
+  width: 100%;
+}
+
+.my-services {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29rem;
+}
+.my-services h1 {
+  margin-top: -38rem;
+  font-size: 5rem;
+  color: white;
+  position: absolute;
+}
+.my-services .service {
+  border: 1px solid black;
+  width: 18rem;
+  justify-content: center;
+  display: flex;
+  height: 18rem;
+  align-items: center;
+  margin: 5rem;
+  border-radius: 15px;
+}
+
+.myform {
+  position: absolute;
+  display: grid;
+  border: 5px solid black;
+  padding: 5rem;
+  transform: translate3d(55rem, 10rem, 1rem);
+  padding-bottom: 5rem;
+  border-radius: 5px;
+}
+.myform h1 {
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+}
+.myform label {
+  color: white;
+  font-weight: 900;
+}
+.myform input {
+  padding: 1rem;
+  outline-color: orange;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  outline: none;
+}
+.myform textarea {
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}
+.myform button {
+  padding: 1rem;
+  background-color: black;
+  color: wheat;
+  border-radius: 15px;
+  border: 1px red solid;
+}
+.myform button:hover {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
